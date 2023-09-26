@@ -17,7 +17,8 @@
     },
     "homepage": "https://github.com/KidsKilla/leetcode#readme",
     "dependencies": {
-        "ts-node": "^10.9.1"
+        "ts-node": "^10.9.1",
+        "tsx": "^3.12.10"
     },
     "devDependencies": {
         "@types/jest": "^29.5.0",
