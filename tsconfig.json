@@ -1,18 +1,7 @@
 {
-    "extends": "ts-node/node16/tsconfig.json"
-    // "compilerOptions": {
-    //     "target": "es6",
-    //     "module": "CommonJS",
-    //     "moduleResolution": "node",
-    //     "declaration": true,
-    //     "esModuleInterop": true,
-    //     "noImplicitReturns": true,
-    //     "noFallthroughCasesInSwitch": true,
-    //     "resolveJsonModule": true,
-    //     "strict": true,
-    //     "strictFunctionTypes": true,
-    //     "strictPropertyInitialization": true,
-    //     // comment this line while debugging
-    //     "noUnusedLocals": true
-    // }
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "outDir": "dist"
+    }
 }
